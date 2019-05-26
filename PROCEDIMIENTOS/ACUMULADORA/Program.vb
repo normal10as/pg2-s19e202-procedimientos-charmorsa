@@ -2,7 +2,6 @@ Imports System
 
 Module Program
     Sub Main(args As String())
-
         Call acumula()
     End Sub
     Sub acumula()

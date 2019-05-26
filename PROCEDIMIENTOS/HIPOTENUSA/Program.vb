@@ -15,7 +15,6 @@ Module Program
 
     Function hipopotenusa(a, b) As Double
         Dim c As Double
-
         c = (a ^ 2) + (b ^ 2)
         Return c
     End Function
