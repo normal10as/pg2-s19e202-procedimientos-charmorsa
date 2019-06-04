@@ -14,23 +14,14 @@ Module Program
         Console.WriteLine(" es un trapecio " & super(a, b, c))
     End Sub
     Function super(p) As Double
-        Dim resultado As Double
-
-        resultado = p * p
-        Return resultado
+        Return p * p
     End Function
 
     Function super(p, q) As Double
-        Dim resultado As Double
-
-        resultado = p * q
-        Return resultado
+        Return p * q
     End Function
 
     Function super(p, q, r) As Double
-        Dim resultado As Double
-
-        resultado = (((p + r) / 2) * q)
-        Return resultado
+        Return (((p + r) / 2) * q)
     End Function
 End Module

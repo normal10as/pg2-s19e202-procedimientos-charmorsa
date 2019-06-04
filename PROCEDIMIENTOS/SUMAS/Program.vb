@@ -21,26 +21,18 @@ Module Program
     End Sub
 
     Function adicion(a, b) As Integer
-        Dim z As Integer
-        z = a + b
-        Return z
+        Return a + b
     End Function
 
     Function adicion(a, b, c) As Integer
-        Dim z As Integer
-        z = a + b + c
-        Return z
+        Return adicion(a, adicion(b, c))
     End Function
 
     Function adicion(a, b, c, d) As Integer
-        Dim z As Integer
-        z = a + b + c + d
-        Return z
+        Return adicion(adicion(a, b), adicion(c, d))
     End Function
 
     Function adicion(a, b, c, d, e) As Integer
-        Dim z As Integer
-        z = a + b + c + d + e
-        Return z
+        Return adicion(adicion(a, b), adicion(c, adicion(d, e)))
     End Function
 End Module
